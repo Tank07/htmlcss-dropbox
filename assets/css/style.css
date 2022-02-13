@@ -35,10 +35,28 @@
   }
 
   .left{
-      float: left;
+    float: left;
   }
 
   .right{
     float: right;
-}
-  
+  }
+    
+  .button{
+    background-color: cyan;
+    color: white;
+    padding: 9px;
+    }
+
+  /* .section-1{
+    width: 80%;
+    margin: auto;
+  }
+
+  h1{
+    font-size: 70px;
+  }
+
+  img{
+    transform: scale(0.5);
+  } */
