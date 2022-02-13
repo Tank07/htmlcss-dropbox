@@ -60,3 +60,43 @@
   img{
     transform: scale(0.5);
   } */
+
+.section-2{
+  width: 70%;
+  margin: auto;
+}
+
+.lateral-c{
+  width: 30%;
+  border: 1px solid red;
+}
+
+.center-c{
+  width: 30%;
+  border: 1px solid red;
+  margin: 0 30px;
+}
+
+.title-c{
+  text-align: center;
+  border-bottom: 1px solid red;
+}
+
+.no-dot ul li{
+  list-style-type: none;
+}
+
+hr{
+  margin-left: 10px;
+  width: 15%;
+}
+
+.check ul li{
+  list-style-type: none;
+}
+
+.check ul li:before{
+  content: "\2713";
+  color: blue;
+}
+
