@@ -140,5 +140,86 @@ hr{
 }
 
 #img1{
+  background-image: url("..//Images/business-feature-switching-tools.png");
+}
+
+#img2{
   background-image: url("..//Images/business-feature-coordinate-it.png");
+}
+
+#img3{
+  background-image: url("..//Images/business-feature-multi-device.png");
+}
+
+#img4{
+  background-image: url("..//Images/business-feature-integrations-it.png");
+}
+
+#img5{
+  background-image: url("..//Images/business-feature-send-files-it.png");
+}
+
+#img6{
+  background-image: url("..//Images/business-feature-security.png");
+}
+
+.column-un-l{
+  width: 25%;
+}
+
+.column-un-c{
+  width: 50%;
+}
+
+.block-un{
+  width: 50%;
+}
+
+.img-un{
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+#img-un-1{
+  background-image: url("..//images/designit.svg");
+  background-color: limegreen;
+}
+
+#img-un-2{
+  background-image: url("..//images/arizona_state_university.svg");
+  background-color: purple;
+}
+
+#img-un-3{
+  background-image: url("..//images/university_of_florida.svg");
+  background-color: cyan;
+  transform: scale(0.5);
+}
+
+#img-un-4{
+  background-image: url("..//images/topps.svg");
+  background-color: brown;
+}
+
+#img-un-5{
+  background-image: url("..//images/world_bicycle_relief.svg");
+  background-color: red;
+}
+
+#img-un-6{
+  background-image: url("..//images/hearst_corp.svg");
+  background-color: aquamarine;
+}
+
+#img-un-7{
+  background-image: url("..//images/lonely_planet.svg");
+  background-color: blue;
+}
+
+#img-un-8{
+  background-image: url("..//images/clear_channel.svg");
+  background-color: yellow;
+  transform: scale(0.5);
 }
