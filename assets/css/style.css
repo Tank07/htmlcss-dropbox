@@ -107,3 +107,38 @@ hr{
   margin-top: 20px;
 }
 
+.fifty-l{
+  width: 50%;
+  background-image: url("..//images/partner.png");
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+}
+
+.fifty-r{
+  width: 50%;
+  /* height: 500px;
+  line-height: 500px;
+  vertical-align: middle; */
+}
+
+.m-20{
+  margin-top: 20px;
+}
+
+.column-img{
+  width: calc(100%/3);
+  float: left;
+  
+}
+
+.c-image{
+  height: 200px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+#img1{
+  background-image: url("..//Images/business-feature-coordinate-it.png");
+}
