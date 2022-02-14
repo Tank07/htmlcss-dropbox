@@ -51,6 +51,7 @@
   /* .section-1{
     width: 80%;
     margin: auto;
+    color: blue;
   }
 
   h1{
@@ -59,9 +60,10 @@
 
   img{
     transform: scale(0.5);
+    max-width: 100%;
   } */
 
-.section-2{
+.spacing{
   width: 70%;
   margin: auto;
 }
@@ -74,7 +76,7 @@
 .center-c{
   width: 30%;
   border: 1px solid red;
-  margin: 0 30px;
+  margin: 0 47px;
 }
 
 .title-c{
@@ -98,5 +100,10 @@ hr{
 .check ul li:before{
   content: "\2713";
   color: blue;
+}
+
+.row{
+  border: 1px solid red;  
+  margin-top: 20px;
 }
 
