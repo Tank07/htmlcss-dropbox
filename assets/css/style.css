@@ -7,7 +7,15 @@
   header{
     background-color: white;
     height: 60px;
+    top: 0px;
     line-height: 60px;
+    position: fixed;
+    z-index: 666;
+    width: 100%;
+  }
+
+  main{
+    margin-top: 60px;
   }
 
   .clearfix::after{
@@ -48,10 +56,25 @@
     padding: 9px;
     }
 
-  /* .section-1{
+  .section-1{
+    background-color: blue;
+    border-bottom: -20px;
+  }
+
+  .spacing-1{
     width: 80%;
     margin: auto;
-    color: blue;
+  }
+
+  .left-1{
+    float: left;
+    width: 50%;
+    
+  }
+
+  .right-1{
+    float: right;
+    width: 50%;
   }
 
   h1{
@@ -59,9 +82,8 @@
   }
 
   img{
-    transform: scale(0.5);
     max-width: 100%;
-  } */
+  }
 
 .spacing{
   width: 70%;
@@ -179,7 +201,7 @@ hr{
   height: 200px;
   background-repeat: no-repeat;
   background-position: center;
-  color: white;
+  filter: invert(1);
 }
 
 #img-un-1{
