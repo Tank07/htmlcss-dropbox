@@ -66,6 +66,14 @@
     background-color: blue;
   }
 
+  .white-box{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    transform: translateY(-40px);
+    z-index: 2;
+  }
+
   .spacing-1{
     width: 80%;
     margin: auto;
@@ -100,6 +108,7 @@
 
   img{
     max-width: 100%;
+    z-index: 500;
   }
 
 .spacing{
