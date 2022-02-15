@@ -129,15 +129,15 @@ h5{
 }
 
 .lateral-c{
-  width: 30%;
+  width: calc((100% / 3) - 40px);
   border: 1px solid red;
   padding: 0 15px;
 }
 
 .center-c{
-  width: 30%;
+  width: calc((100% / 3) - 40px);
   border: 1px solid red;
-  margin: 0 47px;
+  margin: 0 60px;
   padding: 0 15px;
 }
 
