@@ -262,3 +262,10 @@ hr{
   display: block;
 }
 
+.black{
+  background-color: black;
+}
+
+.column-f{
+  width: 20%;
+}
