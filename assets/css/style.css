@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;;
   }
 
   header{
@@ -26,6 +27,7 @@
 
   #logo{
     vertical-align: middle;
+    transform: scale(0.8);
   }
 
   nav{
@@ -53,10 +55,14 @@
   .button{
     background-color: cyan;
     color: white;
-    padding: 9px;
+    padding: 5px;
     }
 
-  .section-1{
+  .menu-r{
+    margin-right: 10px;
+  }
+
+  .bkg-blue{
     background-color: blue;
   }
 
@@ -78,6 +84,18 @@
 
   h1{
     font-size: 70px;
+    padding-top: 70px;
+    margin-bottom: 30px;
+  }
+
+  p:nth-child(1){
+    padding-right: 110px;
+    margin-bottom: 30px;
+  }
+
+  /* perchè non va ?*/
+  p:nth-child(2){
+    margin-top: 10px;
   }
 
   img{
@@ -89,20 +107,44 @@
   margin: auto;
 }
 
+h2{
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+h3{
+  margin-top: 20px;
+}
+
+h5{
+  margin-top: 20px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
+}
+
+.section-2 li{
+  margin: 13px 0;
+}
+
 .lateral-c{
   width: 30%;
   border: 1px solid red;
+  padding: 0 15px;
 }
 
 .center-c{
   width: 30%;
   border: 1px solid red;
   margin: 0 47px;
+  padding: 0 15px;
 }
 
 .title-c{
   text-align: center;
   border-bottom: 1px solid red;
+  padding: 10px 0;
 }
 
 .no-dot ul li{
@@ -138,9 +180,7 @@ hr{
 
 .fifty-r{
   width: 50%;
-  /* height: 500px;
-  line-height: 500px;
-  vertical-align: middle; */
+  padding: 50px;
 }
 
 .m-20{
@@ -150,7 +190,7 @@ hr{
 .column-img{
   width: calc(100%/3);
   float: left;
-  
+  padding: 30px;
 }
 
 .c-image{
@@ -158,6 +198,11 @@ hr{
   width: 100%;
   background-position: center;
   background-size: cover;
+}
+
+/* non va, forse sbaglio i selettori */
+.c-image h4{
+  margin: 40px 0;
 }
 
 #img1{
@@ -190,6 +235,7 @@ hr{
 
 .column-un-c{
   width: 50%;
+  padding: 50px;
 }
 
 .block-un{
@@ -245,6 +291,23 @@ hr{
   transform: scale(0.5);
 }
 
+.row-un{
+  padding: 70px;
+}
+
+.row-un h3{
+  color: blueviolet;
+  font-size: 30px;
+}
+
+.inline-b{
+  margin: 15px 0;
+}
+
+.faq{
+  padding: 70px 0;
+}
+
 /* volevo provare senza float, chiederò perchè non va il text align */
 .arrow-r{
   text-align: right;
@@ -256,6 +319,7 @@ hr{
 
 .hidden{
   display: none;
+  margin-bottom: 10px;
 }
 
 .arrow-r:hover + .hidden{
@@ -266,6 +330,22 @@ hr{
   background-color: black;
 }
 
+.upper-f{
+  padding: 50px;
+}
+
 .column-f{
   width: 20%;
+}
+
+.column-f a{
+  text-decoration: none;
+}
+
+.column-f li{
+  margin-bottom: 6px;
+}
+
+.column-f h5{
+  margin-bottom: 25px;
 }
