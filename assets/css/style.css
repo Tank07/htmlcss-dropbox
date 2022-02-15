@@ -244,3 +244,21 @@ hr{
   background-color: yellow;
   transform: scale(0.5);
 }
+
+/* volevo provare senza float, chiederò perchè non va il text align */
+.arrow-r{
+  text-align: right;
+}
+
+.inline-b{
+  display: inline-block;
+}
+
+.hidden{
+  display: none;
+}
+
+.arrow-r:hover + .hidden{
+  display: block;
+}
+
