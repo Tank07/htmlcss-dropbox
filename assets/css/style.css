@@ -5,6 +5,7 @@
     font-family: 'Open Sans', sans-serif;;
   }
 
+  /* Menù */
   header{
     background-color: white;
     height: 60px;
@@ -51,7 +52,7 @@
   .right{
     float: right;
   }
-    
+  /* Buttons */
   .button{
     background-color: cyan;
     color: white;
@@ -62,6 +63,7 @@
     margin-right: 10px;
   }
 
+  /*  Prima section sfondo celeste */
   .bkg-blue{
     background-color: blue;
   }
@@ -69,6 +71,11 @@
   .spacing-1{
     width: 80%;
     margin: auto;
+  }
+
+  .fake-index{
+    position: relative;
+    bottom: -60px;
   }
 
   .left-1{
@@ -102,6 +109,7 @@
     max-width: 100%;
   }
 
+  /* Tre colonne */
 .spacing{
   width: 70%;
   margin: auto;
@@ -165,11 +173,13 @@ hr{
   color: blue;
 }
 
+/* Riga Enterprise */
 .row{
   border: 1px solid red;  
   margin-top: 20px;
 }
 
+/* 50% immagine con testo float */
 .fifty-l{
   width: 50%;
   background-image: url("..//images/partner.png");
@@ -187,6 +197,7 @@ hr{
   margin-top: 20px;
 }
 
+/* 6 colonne con immagine e testo  */
 .column-img{
   width: calc(100%/3);
   float: left;
@@ -229,6 +240,7 @@ hr{
   background-image: url("..//Images/business-feature-security.png");
 }
 
+/* Blocchi con loghi e testo centrale */
 .column-un-l{
   width: 25%;
 }
@@ -291,6 +303,7 @@ hr{
   transform: scale(0.5);
 }
 
+/* Sezione colorata con button */
 .row-un{
   padding: 70px;
 }
@@ -304,6 +317,7 @@ hr{
   margin: 15px 0;
 }
 
+/* Faq con hover */
 .faq{
   padding: 70px 0;
 }
@@ -326,6 +340,7 @@ hr{
   display: block;
 }
 
+/*  Menù Footer */
 .black{
   background-color: black;
 }
@@ -349,3 +364,5 @@ hr{
 .column-f h5{
   margin-bottom: 25px;
 }
+
+/* Last Part */
