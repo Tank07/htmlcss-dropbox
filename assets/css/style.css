@@ -54,7 +54,7 @@
   }
   /* Buttons */
   .button-menu{
-    background-color: cyan;
+    background-color: #0061ff;
     color: white;
     padding: 5px;
     }
@@ -65,7 +65,7 @@
 
   /*  Prima section sfondo celeste */
   .bkg-blue{
-    background-color: blue;
+    background-color: #b4d0e7;
   }
 
   .spacing-1{
@@ -147,20 +147,20 @@ h5{
 
 .lateral-c{
   width: calc((100% / 3) - 40px);
-  border: 1px solid red;
+  border: 2px solid #f5f5f5;
   padding: 0 15px;
 }
 
 .center-c{
   width: calc((100% / 3) - 40px);
-  border: 1px solid red;
+  border: 2px solid #f5f5f5;
   margin: 0 60px;
   padding: 0 15px;
 }
 
 .title-c{
   text-align: center;
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid #f5f5f5;
   padding: 10px 0;
 }
 
@@ -169,13 +169,14 @@ h5{
 }
 
 .button-column{
-  background-color: cyan;
+  background-color: #0061ff;
   color: white;
   padding: 5px;
   }
 
 .hr-column{
   width: 20%;
+  color: #f5f5f5;
 }
 
 .weight{
@@ -210,12 +211,12 @@ h5{
 
 /* Riga Enterprise */
 .row{
-  border: 1px solid red;  
+  border: 1px solid #f5f5f5;  
   margin-top: 20px;
 }
 
 .button-row{
-  background-color: cyan;
+  background-color: #0061ff;
   color: white;
   padding: 5px;
 }
@@ -365,7 +366,7 @@ h5{
 }
 
 .row-un h3{
-  color: blueviolet;
+  color: #61082b;
   font-size: 30px;
 }
 
@@ -384,9 +385,12 @@ h5{
   padding: 70px 0;
 }
 
-/* volevo provare senza float, chiederò perchè non va il text align */
 .arrow-r{
   text-align: right;
+}
+
+.wid{
+  width: 100%;
 }
 
 .inline-b{
